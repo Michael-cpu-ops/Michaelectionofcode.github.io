@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styleF.css">
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTravel.About</title>
+</head>
+<body>
+      <header id="main_header">
+        <!-- the content of the header goes here -->
+         <h1 id="logo"><a id="logo" href="http://127.0.0.1:5500/day_1/index.html">MyTRAVEL</a></h1>
+         <nav>
+            <ul id="nav-ul">
+                <li>
+                    <a href="http://127.0.0.1:5500/day_1/index.html" class="navbutton">HOME</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/day_1/About.html" class="navbutton">ABOUT</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/day_1/Form.html" class="navbutton">SIGN UP</a>
+                </li>
+            </ul>
+         </nav>
+      </header>   
+      <main>
+        <div><img  id="stock-photo" src="https://picsum.photos/id/569/1903/350" alt="Jpeg of scenery"></div>
+        <div id="main-content">
+            <div id="main-body">
+                <article>
+                  <header id="title">
+                      <!-- Article's header goes here -->
+                      <h2>Sign up for the blogs!</h2>
+                  </header>
+                  <main>
+                    <hr>
+                    <h2 id="Newsletter-title"></h2>
+                    <form action="" id="Newsletter">
+                        <label for="first_name">First Name:</label> 
+                        <input type="text" id="first_name" name="first_name" required>   
+                        <br>
+                
+                        <label for="last_name">Last Name:</label> 
+                        <input type="text" id="last_name" name="last_name" required>   
+                        <br>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                        <br>
+                        
+            
+                        <label for="favourite_animal">Favourite Animal:</label>
+                        <input type="radio" name="favourite_animal" id="dog" value="dog">
+                        <label for="dog">Dog</label>
+                        <input type="radio" name="favourite_animal" id="cat" value="cat">
+                        <label for="cat">Cat</label>
+                        <input type="radio" name="favourite_animal" id="Hedgehog" value="Hedgehog">
+                        <label for="Hedgehog">Hedgehog</label>
+                        <br>
+            
+                        <label for="Country">Country:</label>
+                        <select name="country" id="country">
+                            <option value="england">England</option>
+                            <option value="Scotland">Scotland</option>
+                            <option value="Wales">Wales</option>
+                            <option value="northern_ireland">Northern Ireladn</option>
+                        </select>
+                        <br>
+            
+                        <label for="bio">Biography</label>
+                        <textarea name="bio" id="bio" cols="30" rows="3"></textarea>
+                        <br>
+            
+                        <input type="Checkbox" id="subscribe" name="subscribe ">
+                        <label for="subscribe">Subscribe to our newsletter</label>
+                        <br>
+            
+                        <input type="submit" value="Send!">
+            
+                    </form>
+                    <hr>
+                  </main>
+                  <footer>
+                  </footer>
+                </article>    
+            </div>
+
+            
+        </div>
+        <!-- main content of the website -->
+
+
+      </main>   
+      <footer>
+        <h2 id="MyTravel-footer">MyTravel</h2>
+        <section>
+            <nav>
+                <ul id="footer-ul">
+                    <div>
+                        <li><a href="http://127.0.0.1:5500/day_1/index.html">Home</a></li>
+                        <li><a href="http://127.0.0.1:5500/day_1/About.html">About</a></li>
+                        <li><a href="http://127.0.0.1:5500/day_1/Form.html">Sign up</a></li>
+                    </div>
+                    <div>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Cookie Policy</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+        <!-- footer goes here -->
+      </footer>
